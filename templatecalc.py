@@ -6,9 +6,9 @@ x1 = inputInt("x1")
 y1 = inputInt("y1")
 z1 = inputInt("z1")
 
-x2 = inputInt("x1")
-y2 = inputInt("y1")
-z2 = inputInt("z1")
+x2 = inputInt("x2")
+y2 = inputInt("y2")
+z2 = inputInt("z2")
 
 xlang = x1-x2
 if y1 <=80:
