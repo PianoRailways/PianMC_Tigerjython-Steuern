@@ -11,8 +11,8 @@ y2 = inputInt("y2")
 z2 = inputInt("z2")
 
 xlang = x1-x2
-if y1 <=80:
-    hoch = 80-y1
+if y1 <=80: hoch = 80-y1
+else: hoch = 0
 zlang = z1-z2
 area = sqrt((xlang*zlang)**2)
 
