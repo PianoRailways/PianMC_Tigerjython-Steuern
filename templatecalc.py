@@ -1,6 +1,12 @@
 regionname = inputString("Regionname")
 Owner = inputString("Regionowner")
 nmember = inputInt("Anzahl Mitglieder exkl. Owner")
+nspawner = inputInt("Anzahl Spawner in der Region mit Ertragsfunktion")
+
+print("Bitte einfach die Summe der wichtigsten Verkäufen angeben")
+shopeinkommen = inputInt("Einkommen aus Shops und Firmen des Spielers / Gruppe")
+selleinkommen = inputInt("Einkommen aus /sell")
+tradeeinkommen = intputInt("Einkommen aus dem ChestShop")
 
 x1 = inputInt("x1")
 y1 = inputInt("y1")
@@ -16,6 +22,5 @@ else: hoch = 0
 zlang = z1-z2
 area = sqrt((xlang*zlang)**2)
 
-kosten = area*0.6+hoch*100+nmember*2750
-
+kosten = area*0.75+hoch*120+nmember*3000+nspawner*4200+shopeinkommen*0.065+tradeeinkommen*0.15
 print("{{TJS|" + str(regionname) + "|" + str(Owner) + "|"+str(xlang)+"*"+str(zlang)+"->'''"+str(area)+"'''|"+str(hoch)+"|"+str(kosten)+"}}")
