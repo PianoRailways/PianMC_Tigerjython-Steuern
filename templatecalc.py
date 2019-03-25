@@ -6,7 +6,7 @@ nspawner = inputInt("Anzahl Spawner in der Region mit Ertragsfunktion")
 print("Bitte einfach die Summe der wichtigsten Verkäufen angeben")
 shopeinkommen = inputInt("Einkommen aus Shops und Firmen des Spielers / Gruppe")
 selleinkommen = inputInt("Einkommen aus /sell")
-tradeeinkommen = intputInt("Einkommen aus dem ChestShop")
+tradeeinkommen = inputInt("Einkommen aus dem ChestShop")
 
 x1 = inputInt("x1")
 y1 = inputInt("y1")
